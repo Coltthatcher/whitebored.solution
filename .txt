@@ -1,0 +1,22 @@
+Output: false
+
+Input: "copyright"
+
+Output: true
+
+[h][e][l][l][o]
+0   1  2  3  4
+[h][e][l][l][o]
+0   1  2  3  4
+
+string = "hello"
+
+
+function change(string)
+for(let i = 0 ; i < string.length); i++){
+ for(let j = i + 1}; j < string.length); j++){
+   if (string[i] === string[j])
+   return false;
+ }
+}
+return true;
